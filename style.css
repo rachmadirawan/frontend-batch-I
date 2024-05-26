@@ -2,4 +2,40 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
+
+.wrapper-body {
+  width-max: 1440px;
+  display: flex;
+}
+/* begin nav */
+nav {
+  display: flex;
+  width: 100%;
+  height: 90px;
+  background-color: rgb(23, 48, 243);
+  justify-content: space-between;
+}
+
+nav .logo {
+  padding: 10px;
+  margin-left: 50px;
+}
+
+nav .logo img {
+  border-radius: 50%;
+  width: 66px;
+  height: 66px;
+}
+nav ul {
+  margin-right: 169px;
+}
+nav ul li {
+  display: inline-block;
+  color: white;
+  line-height: 90px;
+  margin-left: 50px;
+  font-size: 24px;
+}
+/* end nav */
